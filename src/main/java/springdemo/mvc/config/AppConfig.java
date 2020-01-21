@@ -12,7 +12,8 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@PropertySource("classpath:../countries.properties")
+@PropertySource("classpath:../configs/student.properties")
+//@PropertySource("classpath:../configs/languages.properties")
 @ComponentScan(basePackages="springdemo")
 public class AppConfig implements WebMvcConfigurer {
 

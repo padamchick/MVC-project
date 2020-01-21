@@ -24,6 +24,12 @@
 
         </form:select>
         <br/><br/>
+        Favourite language:
+        <br/>
+        <form:radiobuttons path="favouriteLanguage" items="${languages}"/>
+        <br/><br/>
+        <form:checkboxes path="operatingSystems" items="${systems}"/>
+        <br/><br/>
         <input type="submit"/>
     </form:form>
 
