@@ -11,7 +11,7 @@ public class HomeController {
     public ModelAndView mainMenu() {
         ModelAndView modelAndView = new ModelAndView("main-menu");
         modelAndView.addObject("title","Home Page");
-        modelAndView.addObject("end","Witajcie w mojej kuchni!");
+        modelAndView.addObject("end","Czas podać swoje imie i nazwisko!");
         return modelAndView;
     }
 }

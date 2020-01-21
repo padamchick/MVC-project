@@ -15,6 +15,6 @@
 <body>
 ${end}
 <br/>
-<a href="/hello/showForm">Go to show form page</a>
+<a href="/student/showForm">Go to student form</a>
 </body>
 </html>
