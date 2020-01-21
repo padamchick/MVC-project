@@ -12,7 +12,7 @@
     <title>Student confirmation page</title>
 </head>
 <body>
-Student confirmation: ${student.firstName} ${student.lastName}
+Student confirmation: ${student.firstName} ${student.lastName} from ${student.country}
 
 
 
