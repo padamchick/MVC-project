@@ -15,7 +15,7 @@
 Student confirmation: ${student.firstName} ${student.lastName} from ${student.country} coding
 in ${student.favouriteLanguage} working on
 
-    <c:forEach var="temp" items="${student.operatingSystems}">${temp} </c:forEach>
+    <c:forEach var="temp" items="${student.operatingSystems}">${temp}        </c:forEach>
 
 
 
